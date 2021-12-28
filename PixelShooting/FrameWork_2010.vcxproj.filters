@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{877472af-1622-45df-b48b-154af5c7549e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9b651466-dc5a-47a6-8a2c-36ee62660a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{a1a023cc-2ab4-4d64-be3f-f8911fff3564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Effect">
+      <UniqueIdentifier>{92a847d5-ef90-4479-8c47-7bc9b679af85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy">
+      <UniqueIdentifier>{3e31a7da-f4cd-4ad8-b1a4-155a38456add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Bullet">
+      <UniqueIdentifier>{ee173e06-79d2-4ebc-abec-57eddb0cb31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{79c452d7-f8ca-4394-b782-a914f70b6751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{be53e7fa-e8e1-492a-94f2-7f51b969c3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title\Scene">
+      <UniqueIdentifier>{0554df8b-fb22-4632-92cc-fe322a0571dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title\Object">
+      <UniqueIdentifier>{68a39ef6-7033-4536-a6bb-59e70c97448c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp" />
+    <ClCompile Include="ObjectCollider2D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEft.cpp">
+      <Filter>Game\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="moveEft.cpp">
+      <Filter>Game\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEft.cpp">
+      <Filter>Game\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="IEffect.cpp">
+      <Filter>Game\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomEft.cpp">
+      <Filter>Game\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="IBullet.cpp">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Title\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Title\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Title\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCollider2D.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="moveEft.h">
+      <Filter>Game\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEft.h">
+      <Filter>Game\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEft.h">
+      <Filter>Game\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="IEffect.h">
+      <Filter>Game\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomEft.h">
+      <Filter>Game\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="IBullet.h">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Title\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Title\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Title\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
